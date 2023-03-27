@@ -3,7 +3,7 @@
 - Property Testing introduced/popularized with QuickCheck in Haskell in 1999
 - Has re-implementations for almost every language
 - Allows you to test properties about the system under test in the format
-  "for all (x, y, ...), [such that precondition(x,y, ...) holds,] predicate (x,y, ...) is true
+  "for all (x, y, ...), [such that precondition(x,y, ...) holds,] predicate (x,y, ...) is true"
 - Unlike Unit Testing, you test a property rather than input-output pairs
 
 ex1 - demonstrates difference between unit test and property test
@@ -33,3 +33,9 @@ ex4 - Result does not behave differently for different inputs
 - test results (between runs) may vary in certain cases (e.g. small number of runs, but many arbitraries)
 
 See propertyToAd.test.ts in monorepo/consumer-exporter for a test where too many arbitraries were used and as a result errors were only sometimes discovered with the default number of test runs (which is 100). Increasing number of runs to 1000 alleviated the issue in that case.
+
+
+## References and links
+
+* fast-check: https://github.com/dubzzz/fast-check
+* introductory blog article: https://jrsinclair.com/articles/2021/how-to-get-started-with-property-based-testing-in-javascript-with-fast-check/
