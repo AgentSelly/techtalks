@@ -1,0 +1,21 @@
+{
+  "name": "property-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "ex1": "ts-node ex1.ts",
+    "ex2": "ts-node ex2.ts",
+    "ex3": "ts-node ex3.ts",
+    "ex4": "ts-node ex4.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.10",
+    "fast-check": "^3.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}

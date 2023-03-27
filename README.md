@@ -1,2 +1,3 @@
-# techtalks
-Location where we collect any notes and code demonstrated during tech talks
+# TechTalks
+
+Repository wherein we collect any notes and code demonstrated during tech talks
